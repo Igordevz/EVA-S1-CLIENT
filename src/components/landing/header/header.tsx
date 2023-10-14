@@ -12,7 +12,7 @@ export default function Header(){
                <Link href="/"> <Image alt="logo" src={evas} width={30}/> EVA - S1</Link>
             </div>
             <nav className="items-nav">
-                <a href="#">Diferencial</a>
+                <Link href="/IA/differential">Diferencial</Link>
                 <a href="#">Intelêgincia Artificial</a>
                 <Link href="/auth/login">Login</Link>
                 <Link href="/auth/singin">Cadastro</Link>

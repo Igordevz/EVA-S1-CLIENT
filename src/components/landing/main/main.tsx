@@ -38,8 +38,7 @@ export default function MainContainer() {
         </span>
         <div className="buttons">
             <Link href="/auth/login">Get started</Link>
-            <Link href="#">Treinamento</Link>
-
+            <Link href="#">Traning</Link>
         </div>
       </div>
       <div className="background">
