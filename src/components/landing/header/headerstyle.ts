@@ -54,4 +54,57 @@ export const Container = styled.div`
   .external {
     cursor: pointer;
   }
+  @media (max-width: 1080px) {
+    .external,
+    nav {
+      display: none;
+    }
+  }
+`;
+export const Menus = styled.div`
+
+  display: none;
+
+  @media (max-width: 1080px) {
+      display: flex;
+  }
+
+`
+export const MenuDrop = styled.div`
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 400px;
+  display: flex;
+  height: 100vh;
+  background: black;
+  align-items: center;
+  justify-content: center;
+  img {
+    left: 20px;
+    top: 20px;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 20px;
+  }
+  nav {
+    display: flex;
+    align-items: safe;
+    flex-direction: column;
+  }
+
+  @keyframes animator {
+    0% {
+      opacity: 0;
+      transform: translateX(500px);
+    }
+    100% {
+      opacity: 1;
+
+      transform: translateX(0);
+    }
+  }
+  @media (max-width:500px){
+    width: 100%;
+  }
 `;
