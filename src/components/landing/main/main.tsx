@@ -20,7 +20,7 @@ export default function MainContainer() {
         currentText += fullText[currentIndex];
         setTypedText(currentText);
         currentIndex++;
-        setTimeout(typeText, 30); // Ajuste a velocidade de digitação conforme desejado
+        setTimeout(typeText, 30); 
       }
     };
 
