@@ -15,12 +15,12 @@ export default function Header() {
         </Link>
       </div>
       <nav className="items-nav">
-        <Link href="/IA/differential">Diferencial</Link>
-        <a href="#">Intelêgincia Artificial</a>
+        <Link href="/IA/differential">Differential</Link>
+        <a href="#">Artificial Intelligence</a>
         <Link href="/auth/login">Login</Link>
-        <Link href="/auth/singin">Cadastro</Link>
+        <Link href="/auth/singin">Register</Link>
         <a href="#">
-          Para Desenvolvedores <code>if(dev)</code>
+          To Developers<code>if(dev)</code>
         </a>
       </nav>
         <MenuContainer/>
